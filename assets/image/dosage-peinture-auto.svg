@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title description">
+  <title id="title">Dosage de peinture automobile</title>
+  <desc id="description">Illustration d'un godet gradué recevant des pigments pour préparer une teinte de peinture automobile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#dce9ff"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#9bb9e8" stop-opacity=".58"/>
+    </linearGradient>
+    <linearGradient id="mix" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14b8d4"/>
+      <stop offset=".52" stop-color="#355bd7"/>
+      <stop offset="1" stop-color="#783bd2"/>
+    </linearGradient>
+    <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.7">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10"/>
+      <feOffset dy="10"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".16"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="600" rx="32" fill="url(#bg)"/>
+  <circle cx="133" cy="120" r="82" fill="#ffcf2d" opacity=".28"/>
+  <circle cx="691" cy="479" r="116" fill="#2181dc" opacity=".12"/>
+  <path d="M64 486h672" stroke="#bfd0eb" stroke-width="5" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <path d="M140 112l108 32-19 64-108-32z" fill="#ffcf2d"/>
+    <path d="M232 138l31 9-9 31-31-9z" fill="#fff"/>
+    <path d="M249 176c31 36 46 72 45 121" fill="none" stroke="#f28a2d" stroke-width="16" stroke-linecap="round"/>
+    <path d="M318 171l114 31-17 59-114-31z" fill="#d83e5c"/>
+    <path d="M416 196l31 9-9 31-31-9z" fill="#fff"/>
+    <path d="M434 235c-9 26-19 45-36 64" fill="none" stroke="#e34b72" stroke-width="15" stroke-linecap="round"/>
+    <path d="M509 161l104-39 22 58-104 39z" fill="#2875d5"/>
+    <path d="M607 126l29-11 11 30-29 11z" fill="#fff"/>
+    <path d="M626 165c-19 34-30 66-32 99" fill="none" stroke="#3179dc" stroke-width="15" stroke-linecap="round"/>
+    <path d="M272 267h292l-34 250c-3 22-20 37-42 37H348c-22 0-39-15-42-37l-34-250z" fill="url(#cup)" stroke="#fff" stroke-width="9"/>
+    <path d="M292 404c36-13 79 4 114 0 45-6 86-25 139-9l-17 121c-2 16-13 26-30 26H348c-17 0-28-10-30-26l-18-112z" fill="url(#mix)"/>
+    <path d="M281 267h274" stroke="#fff" stroke-width="11" stroke-linecap="round"/>
+    <path d="M319 310h51m-51 28h31m-31 28h51m-51 28h31m-51 28h51" stroke="#52729e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M515 310h-33m33 28h-21m21 28h-33m33 28h-21m21 28h-33" stroke="#52729e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M408 289v154" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+    <path d="M327 508c57 13 116 13 174 0" fill="none" stroke="#fff" stroke-width="6" opacity=".65"/>
+  </g>
+  <g fill="#123da8" font-family="Arial, sans-serif" font-weight="700">
+    <text x="75" y="554" font-size="21">DOSAGE</text>
+    <text x="590" y="554" font-size="21">TEINTE AUTO</text>
+  </g>
+</svg>

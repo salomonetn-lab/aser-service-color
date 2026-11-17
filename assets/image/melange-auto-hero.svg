@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title description">
+  <title id="title">Mélange de peinture automobile</title>
+  <desc id="description">Illustration d'un godet gradué de peinture automobile, de pigments colorés et d'une carrosserie bleue.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1748bb"/>
+      <stop offset="1" stop-color="#071a4b"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".88"/>
+      <stop offset=".5" stop-color="#dceaff" stop-opacity=".54"/>
+      <stop offset="1" stop-color="#8caee9" stop-opacity=".72"/>
+    </linearGradient>
+    <linearGradient id="paint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd52e"/>
+      <stop offset=".5" stop-color="#ff9139"/>
+      <stop offset="1" stop-color="#ec3c63"/>
+    </linearGradient>
+    <linearGradient id="car" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#77dcff"/>
+      <stop offset="1" stop-color="#2161d6"/>
+    </linearGradient>
+    <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.8">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="13"/>
+      <feOffset dy="15"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".28"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="720" rx="36" fill="url(#background)"/>
+  <circle cx="794" cy="142" r="180" fill="#4987ff" opacity=".14"/>
+  <circle cx="176" cy="562" r="190" fill="#ffb629" opacity=".08"/>
+  <path d="M56 534c164-40 303-44 438-11 149 36 279 33 410-14v211H56z" fill="#061640" opacity=".48"/>
+  <path d="M112 420c30-78 102-125 196-133l140-12c66-6 108 10 151 52l71 71c15 15 34 22 55 24l80 8c34 4 57 29 57 61v25H96v-29c0-30 3-48 16-67z" fill="url(#car)" opacity=".72"/>
+  <path d="M267 296l130-12c53-5 81 5 113 37l52 56H220c13-34 25-58 47-81z" fill="#b9eeff" opacity=".84"/>
+  <path d="M294 301l96-9c38-4 60 4 84 27l34 37H263c8-23 16-39 31-55z" fill="#1b3d81" opacity=".83"/>
+  <path d="M199 421h500" stroke="#dcf8ff" stroke-width="8" stroke-linecap="round" opacity=".72"/>
+  <circle cx="245" cy="500" r="54" fill="#091a3e"/>
+  <circle cx="245" cy="500" r="28" fill="#c6eaff"/>
+  <circle cx="245" cy="500" r="13" fill="#3068cb"/>
+  <circle cx="664" cy="500" r="54" fill="#091a3e"/>
+  <circle cx="664" cy="500" r="28" fill="#c6eaff"/>
+  <circle cx="664" cy="500" r="13" fill="#3068cb"/>
+  <g filter="url(#shadow)">
+    <path d="M351 142l153 44-27 90-153-44z" fill="#fff" opacity=".96"/>
+    <path d="M351 142l153 44-8 26-153-44z" fill="#ffcf2d"/>
+    <path d="M499 183l37 11-12 40-38-11z" fill="#dbe8ff"/>
+    <path d="M523 228c9 12 13 27 10 41l-30 102" fill="none" stroke="url(#paint)" stroke-width="20" stroke-linecap="round"/>
+    <path d="M433 310l253-2-29 265c-3 27-23 46-50 46H483c-27 0-47-19-50-46l-29-263z" fill="url(#cup)" stroke="#fff" stroke-width="9"/>
+    <path d="M420 449c48-14 91 15 134 8 44-7 92-33 141-12l-13 128c-2 20-16 33-38 33H483c-21 0-36-14-38-34z" fill="url(#paint)"/>
+    <path d="M433 310h253" stroke="#fff" stroke-width="11" stroke-linecap="round"/>
+    <path d="M457 354h42m-42 30h25m-25 30h42m-42 30h25m156-90h-28m28 30h-18m18 30h-28m28 30h-18" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+    <path d="M553 328l5 139" stroke="#f8fbff" stroke-width="9" stroke-linecap="round" opacity=".88"/>
+    <path d="M454 592c69 15 126 16 195 0" fill="none" stroke="#fff" stroke-width="7" opacity=".62"/>
+  </g>
+  <g transform="translate(744 205)">
+    <rect width="128" height="128" rx="26" fill="#fff" opacity=".12"/>
+    <rect x="17" y="17" width="40" height="40" rx="12" fill="#ffcf2d"/>
+    <rect x="70" y="17" width="40" height="40" rx="12" fill="#f35d59"/>
+    <rect x="17" y="70" width="40" height="40" rx="12" fill="#26b7df"/>
+    <rect x="70" y="70" width="40" height="40" rx="12" fill="#5c70e9"/>
+  </g>
+  <path d="M774 398h93" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".78"/>
+  <path d="M774 423h64" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".42"/>
+</svg>

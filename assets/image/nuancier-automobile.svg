@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title description">
+  <title id="title">Nuancier de peinture automobile</title>
+  <desc id="description">Illustration d'un nuancier de couleurs pour peinture automobile à côté d'une carrosserie brillante.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e328e"/>
+      <stop offset="1" stop-color="#071947"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7ce4ff"/>
+      <stop offset=".48" stop-color="#2f8bdf"/>
+      <stop offset="1" stop-color="#1742a0"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#d8e7ff" stop-opacity=".85"/>
+    </linearGradient>
+    <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.7">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="11"/>
+      <feOffset dy="12"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".25"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="600" rx="32" fill="url(#bg)"/>
+  <circle cx="654" cy="120" r="136" fill="#77caff" opacity=".13"/>
+  <path d="M70 470h660" stroke="#fff" stroke-width="3" opacity=".16"/>
+  <g filter="url(#shadow)">
+    <path d="M88 349c26-70 77-113 153-128l113-21c48-9 89 1 124 31l70 61c16 14 34 21 55 22l46 3c26 2 44 21 44 47v48H76v-29c0-15 4-25 12-34z" fill="url(#body)"/>
+    <path d="M266 233l82-15c36-6 64 1 92 24l46 40H230c10-20 20-36 36-49z" fill="#d9f6ff" opacity=".86"/>
+    <path d="M284 239l61-11c25-4 44 0 64 16l25 22H261c7-11 14-20 23-27z" fill="#14346e" opacity=".9"/>
+    <circle cx="215" cy="426" r="47" fill="#07142f"/>
+    <circle cx="215" cy="426" r="24" fill="#c5eaff"/>
+    <circle cx="599" cy="426" r="47" fill="#07142f"/>
+    <circle cx="599" cy="426" r="24" fill="#c5eaff"/>
+    <path d="M120 374h548" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <g transform="translate(456 78) rotate(8)">
+    <rect width="274" height="178" rx="20" fill="url(#chip)" stroke="#fff" stroke-width="5"/>
+    <rect x="19" y="19" width="66" height="66" rx="11" fill="#183c9b"/>
+    <rect x="103" y="19" width="66" height="66" rx="11" fill="#18a7cf"/>
+    <rect x="187" y="19" width="66" height="66" rx="11" fill="#e8394e"/>
+    <rect x="19" y="101" width="66" height="58" rx="11" fill="#f3b92b"/>
+    <rect x="103" y="101" width="66" height="58" rx="11" fill="#39a777"/>
+    <rect x="187" y="101" width="66" height="58" rx="11" fill="#713fbb"/>
+  </g>
+  <path d="M96 516h608" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+  <path d="M96 541h383" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".34"/>
+</svg>
